@@ -141,7 +141,7 @@ def semes():
 
 def start():
 	os.system('clear'); print(banner); print(f'''{m} [{p} 1{m} ]{p} Spam Whatsapp\n{m} [{p} 2{m} ]{p} Spam Sms''')
-	sponge = input(f'\n{m} [{h} ?{m} ]{p} Chose Number :{h} ')
+	sponge = input(f'\n{m} [{h} ?{m} ]{p} Nomer Target (08xx):{h} ')
 	if sponge == '1' or sponge == '01':
 		wangsaf()
 	elif sponge == '2' or sponge == '02':
