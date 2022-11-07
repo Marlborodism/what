@@ -1,4 +1,4 @@
-mport os,sys,time,os,json,requests,json
+import os,sys,time,os,json,requests,json
 from colorama import Fore,Back,init
 from requests import get,post
 from urllib import request
@@ -49,7 +49,6 @@ autoketik(f"""
 {W}[{Y}•{W}] Waktu/Jam {putih}:{Y} {localtime}
 {W}[{Y}•{W}] Total Run {putih}:{Y} {getvisit['value']}
 """)
-'''
 def wangsaf():
 	os.system('clear'); print(banner)
 	try:
